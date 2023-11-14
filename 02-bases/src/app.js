@@ -5,12 +5,20 @@
 // const { getUserById } = require('./js-foundation/03-callbacks');
 // const { getUserById } = require('./js-foundation/04-arrow');
 // const { getUUID, getAge } = require('./plugins/index');
-const getPokemonById = require('./js-foundation/06-promises');
+// const getPokemonById = require('./js-foundation/06-promises');
 
-getPokemonById(4)
-  .then((pokemon) => console.log(pokemon))
-  .catch((err) => console.log(err))
-  .finally(() => console.log('Finalizado'));
+const { buildLogger } = require('./plugins');
+
+const logger = buildLogger('app.js');
+
+logger.info('Starting app...');
+logger.error('Something went wrong!');
+
+// getPokemonById(4)
+//   .then((pokemon) => console.log(pokemon))
+//   .catch((err) => console.log(err))
+//   .finally(() => console.log('Finalizado'));
+
 
   // token de acceso
   // publicas
