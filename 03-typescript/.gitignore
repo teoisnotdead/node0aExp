@@ -4,3 +4,5 @@ package-lock.json
 
 # Logs
 *.log
+
+coverage
