@@ -1,5 +1,7 @@
+# 02 Bases de Node
 
-DEV
+
+Correr en Dev
 ```
 npm run dev
 ```
