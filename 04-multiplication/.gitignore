@@ -1,0 +1,12 @@
+dist
+node_modules/
+outputs/
+package-lock.json
+
+# Logs
+*.log
+
+coverage
+
+
+.DS_Store
