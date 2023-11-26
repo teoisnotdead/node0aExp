@@ -10,6 +10,5 @@ describe('js-foundation/01-template', () => {
       expect(emailTemplate).toContain('{{name}}');
   });
 
-
 });
 
